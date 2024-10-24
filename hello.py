@@ -2,7 +2,10 @@
 name = input("What's your name? ")
 
 # Say hello to user
-print("hello,")
+#print("Hello,")
+#print(name)
+#print("hello," + name)
+print("hello,",  name)
 
-# print the user name
-print(name)
+#Official documentation
+#print(*objects, sep=' ', end='\n', file=sys.stdout, flush=False)
