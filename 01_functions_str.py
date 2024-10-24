@@ -1,7 +1,7 @@
 # Ask user for their name
 # name = input("What's your name? ")
 
-
+# print("hello,",name)
 
 # Say hello to user
 #print("Hello,")
@@ -50,11 +50,16 @@
 # name = ' '.join(name.split())
 
 # stripping extra spaces, converting to title case
-# name = input("What's your name? ").strip().title()
+name = input("What's your name? ").strip().title()
 
-# stripping extra spaces, converting to title case, and removing extra spaces between words in one line
-name = ' '.join(input("What's your name? ").strip().title().split())
+# # stripping extra spaces, converting to title case, and removing extra spaces between words in one line
+# name = ' '.join(input("What's your name? ").strip().title().split())
+
+# Split user's name into first name and last name
+first, last = name.split(" ")
 
 # Say hello to user
-print(f"hello, {name}")
+# print(f"hello, {name}")
+
+print(f"hello, {first}")
 
